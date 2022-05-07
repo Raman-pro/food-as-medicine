@@ -127,6 +127,17 @@ nav{
     height:800px;
 }
 
+
+
+/* recipies section */
+
+.recipies{
+    margin-top: 10vh;
+    min-height: 100vh;
+    justify-content: center;
+
+}
+
 @media screen and (max-width:1200px) {
     .bg-img-berries{
         height:500px;
