@@ -1,0 +1,148 @@
+.bg-light-green{
+    background: linear-gradient(to bottom,#55D8C1,rgba(85, 216, 193,0.98));
+   /* background-color: #55D8C1; */
+}
+
+html{
+    font-family: 'Poppins' !important;
+}
+
+nav{
+    font-size: 1.2rem;
+}
+.navbar a{
+    font-weight: 900;
+}
+.showcase{
+    position:absolute;
+    right:0;
+    /* width: 100%0; */
+    /* wid */
+    width: 100%;
+    min-height: 105vh;
+    padding:  100px;
+    padding-right: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+    /* font-family: 'Jelligun Regular'; */
+
+}
+
+.showcase{
+    background: linear-gradient(to bottom,#55D8C1, #AB46D2);
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.1;
+    background-size: cover;
+}
+@font-face {
+    font-family: "Jelligun";
+    src: url("fonts/Jelligun-Regular.eot");
+}
+    
+    
+.text{
+    font-family: 'Jelligun','Poppins';
+
+    /* font-weight: 900; */
+    font-size: 2rem;
+    z-index: 10;
+    animation: transitionIn 1s;
+}
+.text h1{
+    font-size: 10rem;
+    font-weight:900;
+}
+.text h3{
+    font-size: 4rem;
+    font-weight: 700;
+}
+#intro{
+    /* z-index: 100; */
+    margin-top: 110vh;
+    min-height: 100vh;
+    margin-bottom: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    /* justify-content: center; */
+}
+#intro .intro-text{
+    font-size: 1.2rem;
+}
+
+
+#comparison{
+    min-height: 160vh;
+    /* background-image: url("images/comparison.jpg") linear-gradient(to bottom,rgba(85, 216, 192, 0.548), rgba(170, 70, 210, 0.411)); */
+    background-image: linear-gradient(to bottom,rgba(85, 216, 192, 0.89), rgba(170, 70, 210, 0.89)), url("images/comparison.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: fixed;
+    clip-path: polygon(0 3%,100% 0,100% 97%,0 100%);
+    color: white;
+    font-family: 'Poppins';
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#comparison h1{
+    font-weight: 900;
+    font-size: 4rem;
+    /* font-size: larger; */
+}
+
+#comparison .intro-text{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.beet{
+    background-image: linear-gradient(to right,rgba(171, 70, 210,0.89),rgba(171, 70, 210,0.89)) , url('images/minerals.jpg');
+    background-image: cover;
+    /* background-color: #55D8C1; */
+}
+
+@media screen and (max-width:800px) {
+    #comparison{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #comparison h1{
+        font-size: 2rem;
+    }
+    .showcase{
+        padding: 50px;
+    }
+    .text h1{
+        font-size:4rem;
+    }
+}
+@media screen and (min-width:800px){
+    .card{
+        width: 35rem;
+    }
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        margin-top:400px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
