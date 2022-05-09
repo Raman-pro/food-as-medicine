@@ -127,6 +127,21 @@ nav{
     height:800px;
 }
 
+#next-suggestion{
+    height: 300px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgba(85, 216, 192, 0.89), rgba(170, 70, 210, 0.89)), url("images/comparison.jpg");
+    /* padding-top: auto; */
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    clip-path: polygon(0 3vh,100% 0, 100% 100% ,0 100%);
+}
+
+#next-suggestion h2{
+    padding-top: 50px;
+}
 
 
 /* recipies section */
@@ -137,7 +152,13 @@ nav{
     justify-content: center;
 
 }
-
+.recipies p{
+    font-size:  25px;
+}
+.recipies .card{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width:1200px) {
     .bg-img-berries{
         height:500px;

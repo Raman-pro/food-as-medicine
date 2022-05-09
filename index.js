@@ -13,7 +13,7 @@ var yValuesWight=[50,48,56,63,68,72]
 var xValuesMed=[1984,1991,1998,2005,2012,2016,2019]
 var yValuesMed=[9,30,39,45,59,56,90]
 
-
+// todo:: change font size of graphs
 chart=new Chart("myChart", {
     type: "line",
     data: {
@@ -25,6 +25,7 @@ chart=new Chart("myChart", {
             // color:"#000",
             data: yValuesWight
         },
+        
     ]
     },
 });
